@@ -24,6 +24,7 @@ The transaction ID and the costomer ID was also changed from  an integer data ty
 
 ## ANALYSIS
 Now to start our analysis on RFM. I created a new table 'rfm_table'. I created the table  by grouping the customer ID with the recent date of the each customer ID as 'Date'. 
+
 ![](ntable.png)
 
 We get the most recent date in the dataset where a customer purchased goods and assume this date as a reference to which the recency could be calculated called the recent_date(the most recent date we got here could be stipulated by the client or in some cases we use today's date as the most recent date).
